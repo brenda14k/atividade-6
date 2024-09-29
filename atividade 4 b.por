@@ -18,7 +18,7 @@ programa
             
 		 potencia = potencia*base
 	}
-		escreva ( "O resultado de ",base," elevado á ",expoente," é ",potencia)
+		escreva ( "O resultado de ",base," elevado a ",expoente," é ",potencia)
 		 }
 	}
 }
