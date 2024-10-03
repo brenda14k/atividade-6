@@ -10,14 +10,14 @@ programa
 		inteiro numeros
 		inteiro soma  
 
-		escreva("Digite quantos números voce deseja: ")
+		escreva("Digite quantos números você deseja: ")
 		leia (numeros)
 		
 		escreva("Digite um número: ")
 			leia (numero)
 			
 			se(numero > 1000) {
-        escreva("número inválida!","\n")
+        escreva("número inválido!","\n")
         escreva("Digite quantos números voce deseja: ")
 		leia (numeros)
         
