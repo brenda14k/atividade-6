@@ -22,26 +22,17 @@ programa
         
 		escreva("Digite um número: ")
 			leia (numero)
-			
-			 
-               se (numero >=10){
-	         soma = soma+numero
-	         escreva (soma)
-	        soma= soma -1
-                    }
 
          maior_numero = numero
          menor_numero = numero
                     
 		enquanto (rodada < numeros){
-		
-		
+
 			escreva("Digite um número: ")
 			leia (numero)
 
 			se(numero > maior_numero) {
 				maior_numero = numero
-				
 			        }
 
 			se(numero < menor_numero) {
@@ -53,20 +44,14 @@ programa
 	         escreva (soma)
 	        soma= soma -1
                     }
-                    
-              soma = soma+numero
+                    soma = soma+numero
 			rodada++
-			
-		      }
+			 }
 
 		escreva ("O maior número é ",maior_numero,".","\n")
 		escreva ("Omenor número é ",menor_numero,".","\n")
 		escreva ("A soma dos números ",soma,".")
-		
-	
-   }
-
-	
+    }
 }
 /* $$$ Portugol Studio $$$ 
  * 
